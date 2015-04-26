@@ -23,8 +23,8 @@
   #'   the inverse from the cache.
   
   cacheSolve <- function(x) {
-    m <- x$getInverse() # This fetches the cached value for the inverse
-    if(!is.null(m)) { # If the cache was not empty, we can just return it
+    m <- x$getInverse() 
+    if(!is.null(m)) { 
       message("getting cached data")
       return(m)
     }
