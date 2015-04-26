@@ -25,7 +25,7 @@
       return(m)
     }
     data <- x$get()  # Get value of matrix
-    m <- cachesolve(data) # Calculate inverse
+    m <- cacheSolve(data) # Calculate inverse
     x$setInverse(m)  # Return the inverse
     m                
   }
